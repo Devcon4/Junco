@@ -25,5 +25,5 @@ export function getPageSorted(
         arr = arr.slice(pageIndex, pageIndex + itemsPerPage)
 
         // Map to only item name.
-        return arr.map(i => (i[0] as string));
+        return arr.map(([name]) => (name as string));
 }
