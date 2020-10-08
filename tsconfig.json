@@ -11,6 +11,7 @@
     "strict": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "downlevelIteration": true
   },
   "include": [
     "src/**/*"
