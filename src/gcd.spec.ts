@@ -14,3 +14,10 @@ test('gcd: 2', () => {
 
   expect(res).toEqual(2);
 });
+test('gcd: 3', () => {
+  const input = [20, 40, 60, 80, 100];
+
+  const res = generalizedGCD(5, input); //?.
+
+  expect(res).toEqual(20);
+});
