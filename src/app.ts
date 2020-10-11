@@ -1,8 +1,6 @@
-
 export function app() {
-    var res: string = `4`;
-    console.log(res);
-    return res;
+  var res: string = `4`;
+  return res;
 }
 
 app();
