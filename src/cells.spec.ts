@@ -15,3 +15,8 @@ test('Cells: 3', () => {
   const res = cellCompete(input, 2);
   expect(res).toEqual([0, 0, 1, 1, 0, 1, 1, 1]);
 });
+test('Cells: 4', () => {
+  const input = [0, 1, 1, 0, 0, 0, 0, 0];
+  const res = cellCompete(input, 2);
+  expect(res).toEqual([1, 0, 0, 1, 1, 0, 0, 0]);
+});
